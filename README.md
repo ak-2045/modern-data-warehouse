@@ -4,25 +4,6 @@ This project demonstrates how I designed and implemented a **modern data warehou
 
 ---
 
-## Architecture & Workflow
-
-### ETL Process
-![ETL](docs/ETL.png)
-
-### Data Architecture
-![Data Architecture](docs/data_architecture.png)
-
-### Data Flow
-![Data Flow](docs/data_flow.png)
-
-### Data Integration
-![Data Integration](docs/data_integration.png)
-
-### Data Model
-![Data Model](docs/data_model.png)
-
----
-
 ## Data Architecture  
 
 I built the warehouse using the **Medallion Architecture** with three layers:  
@@ -66,6 +47,23 @@ Develop SQL-based analytics to provide insights into:
 These reports and dashboards enable stakeholders to track key business metrics and support strategic decisions.  
 
 For more details, see [docs/requirements.md](docs/requirements.md).  
+
+---
+
+## Architecture & Workflow
+The following diagrams (made with **draw.io** and **Canva**) illustrate the key components of the project:
+
+### Data Architecture
+![Data Architecture](docs/data_architecture.png)
+
+### Data Flow
+![Data Flow](docs/data_flow.png)
+
+### Data Integration
+![Data Integration](docs/data_integration.png)
+
+### Data Model
+![Data Model](docs/data_model.png)
 
 ---
 
