@@ -100,5 +100,5 @@ data-warehouse-project/
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share it with proper attribution.  
 
-Inspired by [Data with Baraa](https://youtu.be/9GVqKuTVANE).  
+Inspired by [Data with Baraa](https://youtu.be/9GVqKuTVANE)
 
