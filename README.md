@@ -4,6 +4,25 @@ This project demonstrates how I designed and implemented a **modern data warehou
 
 ---
 
+## Architecture & Workflow
+
+### ETL Process
+![ETL](docs/ETL.png)
+
+### Data Architecture
+![Data Architecture](docs/data_architecture.png)
+
+### Data Flow
+![Data Flow](docs/data_flow.png)
+
+### Data Integration
+![Data Integration](docs/data_integration.png)
+
+### Data Model
+![Data Model](docs/data_model.png)
+
+---
+
 ## Data Architecture  
 
 I built the warehouse using the **Medallion Architecture** with three layers:  
