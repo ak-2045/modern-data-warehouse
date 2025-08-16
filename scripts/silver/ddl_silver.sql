@@ -1,14 +1,4 @@
-/*
-===============================================================================
-DDL Script: Create Silver Tables
-===============================================================================
-Script Purpose:
-    This script creates tables in the 'silver' schema, dropping existing tables 
-    if they already exist.
-	  Run this script to re-define the DDL structure of 'bronze' Tables
-===============================================================================
-*/
-
+-- drop table if it already exists, then create crm customer info
 IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE silver.crm_cust_info;
 GO
@@ -25,6 +15,7 @@ CREATE TABLE silver.crm_cust_info (
 );
 GO
 
+-- drop table if it already exists, then create crm product info
 IF OBJECT_ID('silver.crm_prd_info', 'U') IS NOT NULL
     DROP TABLE silver.crm_prd_info;
 GO
@@ -42,6 +33,7 @@ CREATE TABLE silver.crm_prd_info (
 );
 GO
 
+-- drop table if it already exists, then create crm sales details
 IF OBJECT_ID('silver.crm_sales_details', 'U') IS NOT NULL
     DROP TABLE silver.crm_sales_details;
 GO
@@ -60,6 +52,7 @@ CREATE TABLE silver.crm_sales_details (
 );
 GO
 
+-- drop table if it already exists, then create erp location data
 IF OBJECT_ID('silver.erp_loc_a101', 'U') IS NOT NULL
     DROP TABLE silver.erp_loc_a101;
 GO
@@ -71,6 +64,7 @@ CREATE TABLE silver.erp_loc_a101 (
 );
 GO
 
+-- drop table if it already exists, then create erp customer data
 IF OBJECT_ID('silver.erp_cust_az12', 'U') IS NOT NULL
     DROP TABLE silver.erp_cust_az12;
 GO
@@ -83,6 +77,7 @@ CREATE TABLE silver.erp_cust_az12 (
 );
 GO
 
+-- drop table if it already exists, then create erp product category data
 IF OBJECT_ID('silver.erp_px_cat_g1v2', 'U') IS NOT NULL
     DROP TABLE silver.erp_px_cat_g1v2;
 GO
@@ -95,4 +90,3 @@ CREATE TABLE silver.erp_px_cat_g1v2 (
     dwh_create_date DATETIME2 DEFAULT GETDATE()
 );
 GO
-
