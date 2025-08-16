@@ -36,15 +36,6 @@ This layered approach made the warehouse scalable, maintainable, and easy to que
 
 ---
 
-## Outcome  
-
-This project provided hands-on experience in building a **production-style data warehouse**. It improved my ability to:  
-
-- Work with messy raw data and transform it into analysis-ready form.  
-- Apply **ETL processes** and best practices in data modeling.  
-- Design **analytics pipelines** that deliver actionable business insights.  
-- Communicate technical work through clean documentation and reporting.  
-
 ### Analytics and Reporting (Data Analysis)
 
 **Objective**  
